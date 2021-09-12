@@ -2,7 +2,7 @@ package com.gortiz.apiswagger.model;
 
 import io.swagger.annotations.ApiModelProperty;
 
-public class User {
+public class UserModel {
 	
 	 @ApiModelProperty(notes = "name of the User")
      private String userName;
@@ -10,7 +10,7 @@ public class User {
      @ApiModelProperty(notes = "salary of the user")
      private Long salary;
 
-     public User(String userName, Long salary) {
+     public UserModel(String userName, Long salary) {
          this.userName = userName;
          this.salary = salary;
      }
